@@ -13,5 +13,6 @@ namespace ServiceContract
         CountryResponse AddCountry(CountryAddRequest request);
 
         List<CountryResponse> GetAllCountries();
+        CountryResponse GetCountry(int id);
     }
 }
